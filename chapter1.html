@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Chapter One | No Condemnation</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#f8f5ef;
+color:#1f1b18;
+font-family:'Inter',sans-serif;
+line-height:2;
+overflow-x:hidden;
+}
+
+a{
+text-decoration:none;
+}
+
+/* NAVIGATION */
+
+nav{
+width:100%;
+padding:30px 24px;
+display:flex;
+justify-content:center;
+position:absolute;
+top:0;
+left:0;
+z-index:10;
+}
+
+.nav-links{
+display:flex;
+gap:28px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.nav-links a{
+font-size:.88rem;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#f5efe7;
+transition:.3s ease;
+}
+
+.nav-links a:hover{
+opacity:.7;
+}
+
+/* HERO */
+
+.hero{
+position:relative;
+min-height:60vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.6)),
+url('banner.jpg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:150px 24px 100px;
+}
+
+.hero-content{
+max-width:800px;
+}
+
+.chapter-label{
+letter-spacing:4px;
+text-transform:uppercase;
+font-size:.82rem;
+font-weight:500;
+color:#d7b47a;
+margin-bottom:22px;
+}
+
+.hero h1{
+font-family:'Newsreader',serif;
+font-size:clamp(3.5rem,9vw,6rem);
+font-weight:500;
+line-height:1;
+color:#fff;
+margin-bottom:28px;
+}
+
+.hero-text{
+font-family:'Newsreader',serif;
+font-size:clamp(1.2rem,3vw,1.9rem);
+font-style:italic;
+line-height:1.5;
+color:#f3ece2;
+}
+
+/* MAIN */
+
+.section{
+padding:110px 24px;
+}
+
+.container{
+max-width:850px;
+margin:auto;
+}
+
+/* CHAPTER */
+
+.chapter-content{
+font-size:1.06rem;
+color:#433d37;
+}
+
+.chapter-content p{
+margin-bottom:34px;
+}
+
+.chapter-content p:first-child::first-letter{
+font-family:'Newsreader',serif;
+font-size:5rem;
+float:left;
+line-height:.9;
+padding-right:12px;
+color:#1f1b18;
+}
+
+/* QUOTE */
+
+.quote{
+margin-top:90px;
+padding:50px;
+background:#f1ebe2;
+border-radius:24px;
+text-align:center;
+}
+
+.quote-text{
+font-family:'Newsreader',serif;
+font-size:clamp(1.8rem,4vw,3rem);
+line-height:1.5;
+color:#1f1b18;
+}
+
+.quote-reference{
+margin-top:20px;
+letter-spacing:3px;
+text-transform:uppercase;
+font-size:.8rem;
+color:#9c7a45;
+}
+
+/* NAV BUTTONS */
+
+.chapter-navigation{
+display:flex;
+justify-content:space-between;
+gap:20px;
+margin-top:90px;
+flex-wrap:wrap;
+}
+
+.chapter-button{
+display:inline-block;
+padding:16px 30px;
+border-radius:100px;
+font-size:.85rem;
+letter-spacing:2px;
+text-transform:uppercase;
+transition:.35s ease;
+}
+
+.button-dark{
+background:#1d1916;
+color:#fff;
+}
+
+.button-light{
+border:1px solid #ccb287;
+color:#6b5432;
+}
+
+.chapter-button:hover{
+transform:translateY(-4px);
+}
+
+/* FOOTER */
+
+footer{
+padding:60px 24px;
+text-align:center;
+border-top:1px solid rgba(0,0,0,.08);
+margin-top:110px;
+}
+
+.footer-links{
+display:flex;
+justify-content:center;
+gap:24px;
+flex-wrap:wrap;
+margin-bottom:28px;
+}
+
+.footer-links a{
+font-size:.85rem;
+letter-spacing:2px;
+text-transform:uppercase;
+color:#6f665d;
+}
+
+.footer-verse{
+font-family:'Newsreader',serif;
+font-size:1.2rem;
+font-style:italic;
+color:#3f3832;
+margin-bottom:18px;
+}
+
+.footer-copy{
+font-size:.85rem;
+color:#8a8178;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero{
+padding-top:170px;
+padding-bottom:110px;
+}
+
+.section{
+padding:85px 20px;
+}
+
+.quote{
+padding:35px 24px;
+}
+
+.chapter-navigation{
+flex-direction:column;
+}
+
+.chapter-button{
+width:100%;
+text-align:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav>
+
+<div class="nav-links">
+
+<a href="index.html">Home</a>
+<a href="purpose.html">Purpose</a>
+<a href="chapters.html">Chapters</a>
+<a href="reflection.html">Reflection</a>
+
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="chapter-label">
+Chapter One
+</div>
+
+<h1>
+The Quiet Accusation
+</h1>
+
+<div class="hero-text">
+The sanctuary had emptied, yet the weight within Elias Mercer remained.
+</div>
+
+</div>
+
+</section>
+
+<!-- MAIN -->
+
+<section class="section">
+
+<div class="container">
+
+<div class="chapter-content">
+
+<p>
+The sanctuary lights dimmed gradually, casting a subdued glow across the rows of polished wooden pews. The final chord from the piano lingered faintly in the air before dissolving into silence, and the sound of quiet conversation began to rise near the exits as people gathered coats and turned toward home.
+</p>
+
+<p>
+The service had ended, yet Elias Mercer remained seated in the back row, unmoving.
+</p>
+
+<p>
+His posture was composed, almost deliberate, as though he had trained his body to remain still when his thoughts refused to do the same. His hands rested together loosely while his gaze remained fixed on the pulpit.
+</p>
+
+<p>
+People passed him without notice. A few offered polite nods, assuming prayer or reflection held his attention. Others did not see him at all. Elias welcomed either response. What weighed upon him could not be observed from the outside.
+</p>
+
+<p>
+Earlier in the service, when the Scripture reading had begun, Elias had been only half attentive. Romans was familiar territory, comforting in familiarity. Yet when the pastor reached the opening line of the eighth chapter, something within Elias stirred despite resistance.
+</p>
+
+<p>
+“There is therefore now no condemnation…”
+</p>
+
+<p>
+The words returned with unwanted clarity.
+</p>
+
+<p>
+The word “now” unsettled him more than the rest of the sentence. Taken seriously, the verse left little room for delay, improvement, or eventual arrival. Such language suggested present reality rather than future reward.
+</p>
+
+<p>
+Elias opened his Bible again and stared quietly at the passage. The phrase felt excessive, almost reckless in certainty.
+</p>
+
+<p>
+No condemnation.
+</p>
+
+<p>
+For years, spiritual vigilance had felt necessary. Condemnation, however uncomfortable, seemed useful. The pressure kept him attentive, disciplined, and striving toward holiness.
+</p>
+
+<p>
+Yet peace never followed.
+</p>
+
+<p>
+The familiar internal voice returned softly.
+</p>
+
+<p>
+You should be further along by now.
+</p>
+
+<p>
+Elias lowered his head and exhaled slowly.
+</p>
+
+<p>
+Then another thought emerged beneath the weight, quieter yet impossible to ignore.
+</p>
+
+<p>
+What if the voice speaking most often within him had never truly belonged to God at all?
+</p>
+
+</div>
+
+<!-- QUOTE -->
+
+<div class="quote">
+
+<div class="quote-text">
+“Condemnation had felt useful. Yet peace never followed.”
+</div>
+
+<div class="quote-reference">
+No Condemnation
+</div>
+
+</div>
+
+<!-- NAVIGATION -->
+
+<div class="chapter-navigation">
+
+<a href="chapters.html" class="chapter-button button-light">
+← All Chapters
+</a>
+
+<a href="chapter2.html" class="chapter-button button-dark">
+Next Chapter →
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-links">
+
+<a href="index.html">Home</a>
+<a href="purpose.html">Purpose</a>
+<a href="chapters.html">Chapters</a>
+<a href="reflection.html">Reflection</a>
+
+</div>
+
+<div class="footer-verse">
+“There is therefore now no condemnation to them which are in Christ Jesus.”
+</div>
+
+<div class="footer-copy">
+© 2026 Bradley Hobbs • No Condemnation
+</div>
+
+</footer>
+
+</body>
+</html>
