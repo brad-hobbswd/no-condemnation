@@ -378,26 +378,15 @@ Continue to Chapters
 
 <!-- FOOTER -->
 
-<footer>
+<div id="footer"></div>
 
-<div class="footer-links">
-
-<a href="index.html">Home</a>
-<a href="purpose.html">Purpose</a>
-<a href="chapters.html">Chapters</a>
-<a href="reflection.html">Reflection</a>
-
-</div>
-
-<div class="footer-verse">
-“There is therefore now no condemnation to them which are in Christ Jesus.”
-</div>
-
-<div class="footer-copy">
-© 2026 Bradley Hobbs • No Condemnation
-</div>
-
-</footer>
+<script>
+fetch("footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
 
 </body>
 </html>
