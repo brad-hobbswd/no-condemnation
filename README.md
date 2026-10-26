@@ -1,68 +1,30 @@
-# No Condemnation
+# No Condemnation | Bradley Hobbs
 
-A reflective Christian literary project based on Romans 8:1.
+A Christian teaching project focused on grace, forgiveness, freedom from condemnation, and the new life described in Jesus Christ.
 
-## About the Project
+## Live Website
+https://brad-hobbswd.github.io/no-condemnation/
 
-*No Condemnation* explores the quiet struggle many believers carry beneath sincere faith. Through the journey of Elias Mercer, the story examines themes of grace, shame, spiritual exhaustion, assurance, and the difference between condemnation and conviction.
+## Overview
+A Christian teaching project focused on grace, forgiveness, freedom from condemnation, and the new life described in Jesus Christ.
 
-The website was designed as a calm and reflective reading experience with minimal structure, soft typography, and a literary atmosphere centered around Romans 8:1.
-
----
-
-## Scripture Foundation
-
-> “There is therefore now no condemnation to them which are in Christ Jesus.”
->
-> Romans 8:1
-
----
-
-## Website Structure
-
-- `index.html`
-- `purpose.html`
-- `chapters.html`
+## Pages in This Repository
 - `chapter1.html`
 - `chapter2.html`
 - `chapter3.html`
 - `chapter4.html`
+- `chapters.html`
+- `purpose.html`
 - `reflection.html`
-- `404.html`
 
----
+## Technology
+Static website hosted with GitHub Pages using HTML and any included styling, scripts, and media assets.
 
-## Themes
+## Copyright and Permissions
+Copyright © 2026 Bradley Hobbs. All rights reserved.
 
-- Grace
-- Assurance
-- Spiritual healing
-- Freedom from shame
-- Identity in Christ
-- Reflection and restoration
+Original manuscript content, teaching material, reflections, website copy, graphics, visual design, and original source code are protected by copyright. Obtain written permission before copying, republishing, redistributing, modifying, or commercially using original materials, except where applicable law permits otherwise. Third-party materials remain subject to their own rights and terms.
 
----
-
-## Design Direction
-
-The website intentionally uses:
-
-- Soft neutral colors
-- Minimal layouts
-- Literary typography
-- Spacious reading flow
-- Quiet visual presentation
-
-The goal was to create an atmosphere that supports the emotional tone of the book rather than overpowering the writing itself.
-
----
-
-## Author
-
-Bradley Hobbs
-
----
-
-## Live Website
-
-https://brad-hobbswd.github.io/no-condemnation/
+## Search Engine Files
+- [Sitemap](sitemap.xml)
+- [robots.txt](robots.txt)
